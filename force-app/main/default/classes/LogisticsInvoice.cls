@@ -1,10 +1,7 @@
 public  class LogisticsInvoice {
     public List<Asset> asset {get; private set;}
     public List<Location__c> location {get; private set;}
-    public List<Quote> quote{get; private set;}
-    public List<Grand__c> grand{get; private set;}
     public List<Decimal> decim {get; private set;}
-    public decimal deci {get; private set;}
     public String loca1 {get; private set;}
     public String loca2 {get; private set;}
     public Decimal grandTotal {get; private set;}
